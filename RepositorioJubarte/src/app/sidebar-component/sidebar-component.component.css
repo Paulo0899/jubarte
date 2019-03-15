@@ -1,0 +1,36 @@
+*{
+
+}
+.menu i{
+  padding-right: 10px;
+}
+.menu{
+  margin: 0;
+  padding: 0 ;
+  top:0;
+  left: 0;
+  width: 220px;
+  height: 100%;
+  background-color: #272727;
+  position: fixed;
+  overflow: auto;
+}
+.menu a {
+  display: block;
+  color: #AAAAAA;
+  padding: 16px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(100,100,100,0.3)
+}
+
+.menu a:hover{
+  background-color: #E2E2E2;
+  color:black;
+}
+
+@media screen and (max-whidth:400px){
+ .menu a{
+   text-align: center;
+   float: none;
+ }
+}
