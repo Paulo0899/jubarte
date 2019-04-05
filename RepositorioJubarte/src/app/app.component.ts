@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+<<<<<<< HEAD
+
+=======
   card = [
     {
 <<<<<<< HEAD
@@ -55,4 +58,5 @@ export class AppComponent {
       titulo: 'whatchman'
     }
   ];
+>>>>>>> 52ccebd521d3a70179ab05e8f22220a8a2a8ae6d
 }
