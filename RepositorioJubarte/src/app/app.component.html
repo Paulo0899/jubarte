@@ -1,25 +1,24 @@
 <html>
-  <head>
-    <title>NinhonZaru</title>
-      <meta charset="UTF-8">
-    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+<head>
+  <title>NinhonZaru</title>
+  <meta charset="UTF-8">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
-  </head>
-      <body>
+</head>
 
-      <div>
-        <app-sidebar-component></app-sidebar-component>
-      </div>
+<body>
 
-      <div class="postagem">
-          <h2 style="text-align:center">Ninhonzaru</h2>
-         <card-component *ngFor="let fotos of card"
-              [url]="fotos.url"
-            [descricao]="fotos.descricao">
-          </card-component>
+  <div>
+    <app-sidebar-component></app-sidebar-component>
+  </div>
+
+  <div class="postagem">
 
 
-       </div>
-      </body>
+    <router-outlet></router-outlet>
+  </div>
+</body>
+
 </html>
