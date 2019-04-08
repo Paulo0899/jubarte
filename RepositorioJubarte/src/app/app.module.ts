@@ -9,6 +9,7 @@ import { CardModule } from './card/card.module';
 import { TesteComponent } from './teste/teste.component';
 import { routing } from './card/cards/app.routing';
 import { HomeComponent } from './home/home.component';
+import { CriarContaLoginComponent } from './criar-conta-login/criar-conta-login.component';
 
 
 @NgModule({
@@ -20,7 +21,9 @@ import { HomeComponent } from './home/home.component';
 
     TesteComponent,
 
-    HomeComponent
+    HomeComponent,
+
+    CriarContaLoginComponent
   ],
   imports: [
     BrowserModule,
