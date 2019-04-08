@@ -7,7 +7,8 @@ import { Component, Input } from '@angular/core';
 })
 export class BodyComponentComponent   {
 
-      @Input()descricao= '';
+      @Input() descricao= '';
       @Input() url= '';
+      @Input() titulo='';
 
 }
