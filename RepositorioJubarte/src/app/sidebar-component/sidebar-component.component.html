@@ -1,15 +1,17 @@
 <div class="menu" >
-     <div id="pesquisa"  class="form-group input-group">
-          <span class="input-group-addon" ><i class="glyphicon glyphicon-search"></i></span>
-          <input  name="consulta" id="txt_consulta" placeholder="Consultar" type="text" class="form-control">
-         </div>
+  <div class="logo">
+    <h3>Ninhonzaru</h3>
+  </div>
+  <div id="pesquisa"  class="form-group input-group">
+    <span class="input-group-addon" ><i class="glyphicon glyphicon-search"></i></span>
+    <input  name="consulta" id="txt_consulta" placeholder="Consultar" type="text" class="form-control">
+  </div>
 
-
-    <a routerLink="/conta-login"><i class="fas fa-user-circle"></i>Criar conta</a>
-    <a href="#home"><i class="fas fa-home"></i> Home</a>
-    <a [routerLink]="['/teste']" routerLinkActive="router-link-active" ><i class="fas fa-tv"></i>  Series</a>
-    <a href="#home"><i class="fas fa-film"></i>  Filmes</a>
-    <a href="#home"><i class="fas fa-sign-out-alt"></i> sair</a>
+  <a href="#home"><i class="fas fa-home"></i> Início</a>
+  <a routerLink="/conta-login"><i class="fas fa-user-circle"></i> Entrar/Cadastrar</a>
+  <a href="#home"><i class="fas fa-film"></i>  Filmes</a>
+  <a [routerLink]="['/teste']" routerLinkActive="router-link-active" ><i class="fas fa-tv"></i>  Series</a>
+  <a href="#home"><i class="fas fa-sign-out-alt"></i> Sair</a>
 
 </div>
 <!-- <nav class="col-md-2 d-none d-md-block bg-dark sidebar">

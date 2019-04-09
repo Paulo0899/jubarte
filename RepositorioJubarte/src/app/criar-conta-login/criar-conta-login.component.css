@@ -1,60 +1,35 @@
 *{
-
   padding: 0;
   margin: 0;
+}
 
-   }
-
-  #form {
-
-
+#form {
   /* background-color: gray; */
   text-align: center;
   padding: 100px;
+}
 
-
-
-
-
-  }
-
-  form {
-
+form {
   width: 35%;
   margin: auto;
-  box-shadow: 0 0 5px lightgray;
+  box-shadow: 1px 1px 5px gray;
   padding: 80px 30px 50px 30px;
   background-color: #ffffff;
+}
 
 
-
-
-  }
-
-
-  form input {
-
+form input {
   padding: 15px;
   margin-bottom: 15px;
+}
 
-
-  }
-
-
-  form input[type="submit"] {
-
+form input[type="submit"] {
   background-color: black;
   color: #ffffff;
   border-style: none;
   width: 200px;
+}
 
-
-  }
-
-  i {
-
-
-    padding: 19px;
-
-
-  }
+i {
+  padding: 19px;
+}
