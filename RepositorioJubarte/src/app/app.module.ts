@@ -10,6 +10,8 @@ import { TesteComponent } from './teste/teste.component';
 import { routing } from './card/cards/app.routing';
 import { HomeComponent } from './home/home.component';
 import { CriarContaLoginComponent } from './criar-conta-login/criar-conta-login.component';
+import { CriarContaComponent } from './criar-conta/criar-conta.component';
+
 
 
 @NgModule({
@@ -23,7 +25,11 @@ import { CriarContaLoginComponent } from './criar-conta-login/criar-conta-login.
 
     HomeComponent,
 
-    CriarContaLoginComponent
+    CriarContaLoginComponent,
+
+    CriarContaComponent,
+
+
   ],
   imports: [
     BrowserModule,
